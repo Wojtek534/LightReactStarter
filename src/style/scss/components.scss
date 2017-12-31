@@ -1,0 +1,17 @@
+body,
+button,
+input,
+select,
+textarea {
+    font-size: $base-font;
+    line-height: $base-line-height;
+    font-family: $font;
+}
+
+body {
+    margin: 0;
+}
+
+#home {
+    text-align: center;
+}

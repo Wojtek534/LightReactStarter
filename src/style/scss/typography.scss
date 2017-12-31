@@ -1,0 +1,32 @@
+// Typography
+@for $Value from 1 through 3 {
+    #{h}#{$Value} {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        color: $text-color;
+        line-height: $base-line-height;
+    }
+}
+
+h1 {
+    font-size: $base-font+20;
+    font-weight: $base-weight+300;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: $base-font+18;
+    font-weight: $base-weight+300;
+}
+
+h3 {
+    font-size: $base-font+16;
+    font-weight: $base-weight+200;
+}
+
+p {
+    font-size: $base-font+8;
+    line-height: $base-line-height;
+    font-weight: $base-weight;
+    color: $text-color;
+}
